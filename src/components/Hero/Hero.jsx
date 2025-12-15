@@ -16,7 +16,7 @@ const Hero = () => {
               animate="animate"
               className="text-4xl font-bold font-serif"
             >
-              SKETCH LUXURY INTERIOR DESIGN
+              SKETCH LUXURY LUXENEST DESIGN
             </motion.h1>
             <motion.p
               variants={SlideUp(0.5)}

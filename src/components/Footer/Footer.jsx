@@ -18,7 +18,7 @@ const Footer = () => {
           <div className="space-y-4 font-semibold">
             <div className="flex items-center space-x-3">
               <img src={Logo} alt="" className="w-6" />
-              <p className="text-xl font-semibold">Interior</p>
+              <p className="text-xl font-semibold">LuxeNest</p>
             </div>
             <p>Greater Noida, Uttar Pradesh, India</p>
             <p>@ 2024 TCJ All rights reserved</p>
