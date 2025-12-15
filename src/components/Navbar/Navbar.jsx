@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Logo from "../../assets/logo.png";
 import { motion } from "framer-motion";
 
@@ -19,8 +20,10 @@ const Navbar = () => {
       >
         {/* Logo section */}
         <div className="flex items-center gap-3">
-          <img src={Logo} alt="logo" className="w-10" />
-          <span className="text-2xl font-bold">LuxeNest</span>
+          <Link to="/">
+            <img src={Logo} alt="logo" className="w-10" />
+            <span className="text-2xl font-bold">LuxeNest</span>
+          </Link>
         </div>
         {/* Link section */}
         <div className="hidden md:block !space-x-12">
