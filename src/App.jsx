@@ -1,26 +1,26 @@
+import Home from "./pages/Home";
+import About from "./pages/About";
+import ServicesPage from "./pages/Service";
+import Projects from "./pages/Project";
+import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar/Navbar";
-import Hero from "./components/Hero/Hero";
-import Brands from "./components/Brands/Brands";
-import Services from "./components/Services/Services";
-import Banner from "./components/Banner/Banner";
-import Banner2 from "./components/Banner/Banner2";
-import Testimonial from "./components/Testimonial/Testimonial";
-import Newsletter from "./components/Newsletter/Newsletter";
+import { Route, Routes } from "react-router-dom";
 import Footer from "./components/Footer/Footer";
+
 
 const App = () => {
   return (
-    <main className="overflow-x-hidden">
+    <>
       <Navbar />
-      <Hero />
-      <Brands />
-      <Services />
-      <Banner />
-      <Banner2 />
-      <Testimonial />
-      <Newsletter />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/services" element={<ServicesPage />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
       <Footer />
-    </main>
+    </>
   );
 };
 

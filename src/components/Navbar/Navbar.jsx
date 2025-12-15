@@ -2,26 +2,11 @@ import Logo from "../../assets/logo.png";
 import { motion } from "framer-motion";
 
 const NavLinks = [
-  {
-    id: 1,
-    title: "About",
-    link: "#",
-  },
-  {
-    id: 2,
-    title: "Services",
-    link: "#",
-  },
-  {
-    id: 3,
-    title: "Project",
-    link: "#",
-  },
-  {
-    id: 4,
-    title: "Contact",
-    link: "#",
-  },
+  { id: 1, title: "Home", link: "/" },
+  { id: 2, title: "About", link: "/about" },
+  { id: 3, title: "Services", link: "/services" },
+  { id: 4, title: "Projects", link: "/projects" },
+  { id: 5, title: "Contact", link: "/contact" },
 ];
 const Navbar = () => {
   return (

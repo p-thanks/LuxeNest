@@ -19,8 +19,8 @@ const Footer = () => {
               <img src={Logo} alt="" className="w-6" />
               <p className="text-xl font-semibold">LuxeNest</p>
             </div>
-            <p>Greater Noida, Uttar Pradesh, India</p>
-            <p>@ 2024 TCJ All rights reserved</p>
+            <p>Greater, New-York, USA</p>
+            <p>@ 2025 Pthanks All rights reserved</p>
           </div>
           {/* Footer Link */}
           <div className="grid grid-cols-2 gap-3">
