@@ -4,11 +4,11 @@ import Testimonial from "../components/Testimonial/Testimonial";
 
 const Projects = () => {
   return (
-    <main className="overflow-x-hidden">
+    <>
       <Brands />
       <Testimonial />
       <Banner />
-    </main>
+    </>
   );
 };
 

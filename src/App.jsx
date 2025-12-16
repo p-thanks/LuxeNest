@@ -10,7 +10,7 @@ import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
-    <>
+    <div className="overflow-x-hidden">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -20,7 +20,7 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
-    </>
+    </div>
   );
 };
 

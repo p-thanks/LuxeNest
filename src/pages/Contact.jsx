@@ -3,10 +3,10 @@ import Newsletter from "../components/Newsletter/Newsletter";
 
 const Contact = () => {
   return (
-    <main className="overflow-x-hidden">
+    <>
       <Banner2 />
       <Newsletter />
-    </main>
+    </>
   );
 };
 

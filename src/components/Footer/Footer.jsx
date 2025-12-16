@@ -65,11 +65,11 @@ const Footer = () => {
             <ul className="text-base font-semibold space-y-4">
               <li className="flex items-center space-x-3">
                 <FaPhone />
-                <a href="#">+91 123456789</a>
+                <a href="#">+234-911-749-2061</a>
               </li>
               <li className="flex items-center space-x-3">
                 <LuMessageSquare />
-                <a href="mailto:contact.thecodingjourney@gmail.com">Email</a>
+                <a href="mailto:pthanksdev@gmail.com">Email</a>
               </li>
             </ul>
           </div>
@@ -77,7 +77,7 @@ const Footer = () => {
 
         {/* bottom section */}
         <p className="text-center text-sm font-semibold  border-t-2 pt-5 mt-5">
-          &copy; 2023 TCJ. All rights reserved
+          &copy; 2025 Pthanks. All rights reserved
         </p>
       </div>
     </motion.footer>
