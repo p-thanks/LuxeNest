@@ -1,4 +1,4 @@
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/Logo.png";
 import { FaPhone } from "react-icons/fa6";
 import { LuMessageSquare } from "react-icons/lu";
 import { motion } from "framer-motion";
