@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/Logo.png";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 
